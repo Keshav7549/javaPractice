@@ -6,7 +6,7 @@ import java.io.*;
 // in DB or as a file in storage or network
 /* ========> for a class to be serialized,
 1. we need a pojo first (Note: A pojo is a bean with private variables and private getter/setter methods
-                            having at-least one private default constructor and implements **Serializable** interface)
+                                having at-least one private default constructor and implements **Serializable** interface)
 2. we need a FileOutputStream class object to create and store it into a file named Student.txt
 3. we need an ObjectOutputStream to consume this file and write the class object ie; Student to a stream of object using writeObject()
 4. Close the ObjectOutputStream object and fileOutputStream object using close()
