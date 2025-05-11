@@ -1,9 +1,8 @@
 package src.main.code.streams;
 
-/* This demo involves the same purpose as Demo2 but here will generate limited integer data using Supplier with Stream.of(). */
-
 import java.util.stream.Stream;
 
+/* This demo involves the same purpose as Demo2 but here will generate limited integer data using Supplier with Stream.of(). */
 public class StreamDemo3 {
     public static void main(String[] args) {
 

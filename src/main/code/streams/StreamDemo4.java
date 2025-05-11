@@ -15,7 +15,7 @@ public class StreamDemo4 {
         /* 2. For limited stream of data we added student Objects in Stream.of() which will return stream of Student object */
         Stream <StudentPOJO_StreamDemo4> studentObjStream = Stream.of(s1, s2, s3);
 
-        /* 2. We can use the stream of Student object created earlier and iterate through each student object */
+        /* 3. We can use the stream of Student object created earlier and iterate through each student object */
         studentObjStream.forEach(studObj -> System.out.println("The student data is : "+studObj));
 
     }
