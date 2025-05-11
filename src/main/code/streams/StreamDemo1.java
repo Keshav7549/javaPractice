@@ -1,5 +1,9 @@
 package src.main.code.streams;
 
+/* This demo involves generating infinite data string "Hello Stream" using supplier and
+then passed to the consumer iterating over the created stream object using forEach()
+*/
+
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
