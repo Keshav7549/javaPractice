@@ -30,7 +30,7 @@ public class StreamDemo5 {
     // 3. Simply print using terminal operation forEach()
 //    numArrayListStreamObj.forEach( arrayVal -> System.out.println("Array Numbers : "+arrayVal));
 
-    // 4. Now, suppose we want to filter values to be shown only for num values > 5. We will use predicate function to filter()
+    // 4. Now, suppose we want to filter values to be shown only for num values > 5. We will use predicate functional interface to filter()
     Stream<Integer> filteredNumArrayListStreamObj = numArrayListStreamObj
                                                                 .filter((Integer intArrValue) -> {return intArrValue > 5;});
     // Note: The intermediate operations always return a stream object like above after filtering we get filtered Stream object.
